@@ -83,7 +83,7 @@
         #endregion
 
         private PictureBox pBox_image;
-        private Label lbl_productCost;
-        private CheckBox cBox_productSay;
+        public CheckBox cBox_productSay;
+        public Label lbl_productCost;
     }
 }

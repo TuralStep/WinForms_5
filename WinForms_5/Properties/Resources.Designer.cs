@@ -123,6 +123,16 @@ namespace WinForms_5.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap albeni_logo {
+            get {
+                object obj = ResourceManager.GetObject("albeni_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap fanta_logo {
             get {
                 object obj = ResourceManager.GetObject("fanta_logo", resourceCulture);
@@ -136,6 +146,26 @@ namespace WinForms_5.Properties {
         internal static System.Drawing.Bitmap kola_logo {
             get {
                 object obj = ResourceManager.GetObject("kola_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap lipton_ice_tea_logo {
+            get {
+                object obj = ResourceManager.GetObject("lipton_ice_tea_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap mars_logo {
+            get {
+                object obj = ResourceManager.GetObject("mars_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -186,6 +216,16 @@ namespace WinForms_5.Properties {
         internal static System.Drawing.Bitmap sprite_logo {
             get {
                 object obj = ResourceManager.GetObject("sprite_logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tutku_logo {
+            get {
+                object obj = ResourceManager.GetObject("tutku_logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

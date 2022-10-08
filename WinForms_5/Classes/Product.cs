@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using WinForms_5.Properties;
 
@@ -14,6 +15,7 @@ namespace WinForms_5
         public string Name { get; set; }
         public double Cost { get; set; }
         public int Count { get; set; }
+        [JsonIgnore]
         public Bitmap Image { get; set; }
 
         public Product(string name, double cost, int count, Bitmap image)
